@@ -20,3 +20,5 @@ ENV/
 dist/
 build/
 
+# Intellij IDEA folders
+.idea/
