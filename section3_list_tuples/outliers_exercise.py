@@ -18,6 +18,11 @@ data = []
 min_valid = 100
 max_valid = 200
 
+# DON'T DO FOLLOWING(ITERATION FORWARD), WHEN DELETING ITEM IN LIST
+# for index, value in enumerate(data):
+#     if value < min_valid or value > max_valid:
+#         del data[index]
+
 # process the low values in the list
 stop = 0
 for index, value in enumerate(data):

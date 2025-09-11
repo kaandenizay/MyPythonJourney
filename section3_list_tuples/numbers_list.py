@@ -2,6 +2,8 @@ empty_list = []
 even = [2, 4, 6, 8]
 odd = [1, 3, 5, 7, 9]
 
+numbers = even + odd
+print(numbers)
 numbers = [even, odd]
 print(numbers)
 
@@ -45,7 +47,7 @@ print(digits)
 new_list = list(empty_new_list)
 print(new_list)
 
-print(new_list is empty_new_list)
+print(new_list is empty_new_list) # it's not same after using list function
 print(new_list == empty_new_list)
 
 neww_list = empty_new_list.copy()

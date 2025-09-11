@@ -16,7 +16,8 @@ for meal in menu:
 
         for item in meal:
             print(item)
-
+    else:
+        print("{0} has a spam score of {1}".format(meal, meal.count("spam")))
 
 for meal in menu:
     top_index = len(meal) - 1
