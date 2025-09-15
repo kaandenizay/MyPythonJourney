@@ -4,6 +4,7 @@ while choice != "0":
     """
     Here set function receives an iterable object, "12345" string in 
     this example, but it takes any iterable object even list and range also
+    Using a set literal, instead of the set function, is much faster
     """
     if choice in {"1", "2", "3", "4", "5"}: # We used set literal
         print("You chose {}".format(choice))

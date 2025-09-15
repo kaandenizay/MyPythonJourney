@@ -12,6 +12,7 @@ intersection = farm_animals & wild_animals & potential_rides
 print(intersection)
 
 mounts = farm_animals.intersection(wild_animals, potential_rides)
+# mounts = farm_animals.intersection(wild_animals).intersection(potential_rides)
 print(mounts)
 
 

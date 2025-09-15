@@ -5,4 +5,4 @@ possible_courses = set(morning).symmetric_difference(afternoon)
 print(possible_courses)
 
 possible_courses = set(afternoon).symmetric_difference(morning)
-print(possible_courses)
+print(possible_courses) # Symmetric difference is commutative

@@ -15,4 +15,4 @@ print(odds.difference(primes))
 
 print(odds - primes)
 
-print(primes - odds)
+print(primes - odds) # Difference operation non-commutative

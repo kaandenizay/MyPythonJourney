@@ -14,6 +14,10 @@ d = {
 
 pantry_items = ['chicken', 'spam', 'egg', 'bread', 'lemon']
 
+# new_dict = dict.fromkeys(pantry_items, 0) # Create a dict with keys from given iterable and default value
+# print(new_dict)
+
+
 v = d.values()
 print(v)
 
@@ -25,7 +29,7 @@ print("eleven" in v)
 
 keys = list(d.keys())
 values = list(v)    # => list(d.values())
-if "four" in values:
+if "four" in values: # This approach is unsufficient
     index = values.index("four")
     key = keys[index]
     print(f"{d[key]} was found with the key {key}")

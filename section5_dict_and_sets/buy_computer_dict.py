@@ -10,7 +10,7 @@ current_choice = None
 computer_parts = {}     # create an empty dictionary
 
 while current_choice != "0":
-    if current_choice in available_parts:
+    if current_choice in available_parts: # When we use 'in' It's iterate over keys
         computer_parts[current_choice] = available_parts[current_choice]
         print("Adding {}".format(available_parts[current_choice]))
     else:
