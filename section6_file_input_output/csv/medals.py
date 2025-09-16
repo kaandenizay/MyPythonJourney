@@ -1,6 +1,6 @@
 import csv
 
-DATA_PATH = '../data/'
+DATA_PATH = '../../data/'
 csv_filename = 'OlympicMedals_2020.csv'
 
 with open(DATA_PATH + csv_filename, encoding='utf-8', newline='') as csv_file:

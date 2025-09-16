@@ -17,7 +17,7 @@ cereals = [
 
 column_headings = ["Cereal", "Calories", "Fat", "Protein", "Fibre", "Vitamin E"]
 
-DATA_PATH = '../data/'
+DATA_PATH = '../../data/'
 output_filename = 'my_cereals.csv'
 
 with open(DATA_PATH + output_filename, 'w', encoding='utf-8', newline='') as output_file:

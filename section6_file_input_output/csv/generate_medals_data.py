@@ -1,6 +1,6 @@
 import csv
 
-DATA_PATH = '../data/'
+DATA_PATH = '../../data/'
 ordering = ['Country', 'Gold', 'Silver', 'Bronze', 'Rank']
 # Note the lack of 'Total' in `ordering`
 

@@ -1,6 +1,6 @@
 import csv
 
-data_path = '../data/'
+data_path = '../../data/'
 input_filename = 'country_info.txt'
 
 countries = {}

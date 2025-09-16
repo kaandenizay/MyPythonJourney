@@ -10,11 +10,11 @@ albums = [("Welcome to my Nightmare", "Alice Cooper", 1975),
 keys = ['album', 'artist', 'year']
 
 filename = 'albums.csv'
-with open('../data/' + filename, 'w', encoding='utf-8', newline='') as csv_file:
+with open('../../data/' + filename, 'w', encoding='utf-8', newline='') as csv_file:
     writer = csv.DictWriter(csv_file, fieldnames=keys)
     writer.writeheader()
     for row in albums:
-        zip_object = zip(keys, row)
+        zip_object = zip(keys, row) # zips together the two iterables, creates tuple
         # print(zip_object)
         # for thing in zip(keys, row):
         #     print("\t", thing)

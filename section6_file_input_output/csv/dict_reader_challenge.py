@@ -1,6 +1,6 @@
 import csv
 
-DATA_PATH = '../data/'
+DATA_PATH = '../../data/'
 input_filename = 'country_info.txt'
 
 dialect = csv.excel

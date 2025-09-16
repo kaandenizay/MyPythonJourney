@@ -22,7 +22,7 @@ data = [
     "Witch Hazel - Shrub",
 ]
 
-DATA_PATH = '../data/'
+DATA_PATH = '../../data/'
 plants_filename = "flowers_print.txt"
 
 with open(DATA_PATH + plants_filename, "w") as plants:

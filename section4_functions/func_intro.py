@@ -55,7 +55,7 @@ def fibonacci(n: int) -> int:
     n_minus_1 = 1 # 1 index before n, directly previous one FIBONACCI_1
     result = None
 
-    if n in (0,1):
+    if n in (0,1): # if 0 <= n <= 1
         return n
 
     for f in range(n - 1):

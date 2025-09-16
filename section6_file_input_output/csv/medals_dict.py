@@ -103,7 +103,7 @@ def sort_key(d: dict) -> str:
 columns = ['country', 'gold', 'silver', 'bronze']
 
 filename = 'country_medals.csv'
-with open('../data/' + filename, 'w', encoding='utf-8', newline='') as output_file:
+with open('../../data/' + filename, 'w', encoding='utf-8', newline='') as output_file:
     writer = csv.DictWriter(output_file, fieldnames=columns, extrasaction='ignore')
     """
     extrasaction ignores the field errors if they are missing

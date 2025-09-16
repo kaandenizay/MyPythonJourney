@@ -12,7 +12,7 @@ def removesuffix(string: str, suffix: str) -> str:
         return string[:]
 
 
-filename = '../data/Jabberwocky.txt'
+filename = '../../data/Jabberwocky.txt'
 with open(filename) as poem:
     first = poem.readline().rstrip()
 
@@ -20,6 +20,7 @@ print(first)
 # chars = "'"
 # no_apostrophe = first.strip(chars)
 # print(no_apostrophe)
+# chars = "' Twasebv"  # -> 'rillig, and the slithy to'
 chars = "'Tsweavso"
 no_apostrophe = first.strip(chars)
 print(no_apostrophe)

@@ -1,6 +1,6 @@
 import csv
 
-DATA_PATH = '../data/'
+DATA_PATH = '../../data/'
 input_filename = 'country_info.txt'
 
 with open(DATA_PATH + input_filename, encoding='utf-8', newline='') as countries_data:
@@ -10,6 +10,7 @@ with open(DATA_PATH + input_filename, encoding='utf-8', newline='') as countries
     country_dialect = csv.Sniffer().sniff(sample)
     country_dialect.skipinitialspace = True
     countries_data.seek(0)
+    # seek method is used to position the file pointer to another place in the file
     country_reader = csv.reader(countries_data, dialect=country_dialect)
     for row in country_reader:
         print(row)
