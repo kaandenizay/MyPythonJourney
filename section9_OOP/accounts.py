@@ -5,7 +5,7 @@ class Account:
     """ Simple account class with balance """
 
     @staticmethod
-    def _current_time():
+    def _current_time(): # _ indicates that this method should be non-public, similar to private
         utc_time = datetime.datetime.now()
         return utc_time
 

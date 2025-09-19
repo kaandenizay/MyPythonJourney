@@ -31,3 +31,14 @@ exits = {0: {"Q": 0},
          3: {"W": 1, "Q": 0},
          4: {"N": 1, "W": 2, "Q": 0},
          5: {"W": 2, "S": 1, "Q": 0}}
+
+loc = 1
+forest = []
+for xit in exits:
+    if loc in exits[xit].values():
+        forest.append(locations[xit])
+print(forest)
+
+loc = 1
+forest = [locations[xit] for xit in exits if loc in exits[xit].values()]
+print(forest)

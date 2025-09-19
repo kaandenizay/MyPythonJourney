@@ -27,3 +27,6 @@ for val in big_range:
 print("big_list is {} bytes".format(sys.getsizeof(big_list)))
 print(big_range)
 print(big_list)
+
+for i in my_range(5):
+    print("i is {}".format(i))

@@ -5,6 +5,9 @@ root = 'music'
 for path, directories, files in os.walk(root, topdown=True):
     # os.walk is a generator, so it doesn't try to read every single file and directory at once,
     # it's only yielding the details for a single directory at a time
+    # print(path)
+    # print(directories)
+    # print(files)
     # for f in files:
     #     print("\t{}".format(f))
     if files:

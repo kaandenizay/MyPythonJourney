@@ -33,7 +33,7 @@ class Player(object):
 
     lives = property(_get_lives, _set_lives)
     level = property(_get_level, _set_level)
-    # Data attribute must not have the same name as the property
+    # Data attribute must not have the same name as the property, "_lives" "lives"
 
     @property
     def score(self):
